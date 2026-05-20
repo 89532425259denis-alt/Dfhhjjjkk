@@ -13,4 +13,4 @@ def generate(message):
     url = f"https://image.pollinations.ai/prompt/{prompt}"
     bot.send_photo(message.chat.id, url, caption="Вот ваше изображение!")
     if __name__ == "__main__":
-    bot.infinity_polling()
+    bot.infinity_polling()  # <-- Добавьте 4 пробела перед bot.infinity_polling()
